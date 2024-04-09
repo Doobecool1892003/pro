@@ -1,0 +1,31 @@
+Thư viện fstream trong đoạn code dùng để thao tác với tệp
+
+Fstream cho phép mở, đọc, ghi, đóng các tệp dữ liệu trên ổ đĩa
+
+Thư viện vector -- cấu trúc dữ liệu động, cho phép lưu trữ các phần tử trong mảng có thể mở rộng
+
+Vector hỗ trợ các thao tác như thêm phần tử vào cuối danh sách, xóa phần tử khỏi danh sách, truy cập phần tử ở từng vị trị cụ thể,
+hoặc thậm chí là duyệt qua tất cả các phần tử trong danh sách.
+
+Compare: fstream sử dụng để đọc, và ghi dữ liệu từ/đến tệp dữ liệu
+         vector thì sử dụng để lưu trữ và quản lý danh sách các đối tượng (employee chả hạn)
+
+Thư viện string: dùng để làm việc với chuỗi, bao gồm cắt chuỗi, nối chuỗi, tìm kiếm trong chuỗi, hoặc so sánh các chuỗi với nhau.
+
+Thư viện algorithm trong C++ cung cấp tập hợp các hàm tiện ích để thực hiện các thao tác tiêu chuẩn trên dãy phần tử
+EX: tìm kiếm, sắp xếp, so sánh, thực viện các hoạt động khác trên các phần tử của các dãy như mảng hoặc vector.
+VD: trong đoạn code thì có: tìm kiếm nhân viên dựa theo ID, xóa nhân viên dựa trên ID, tìm kiếm nhân viên có ID lớn nhất để gán cho nhân viên mới
+khi thêm vào ds. 
+Cụ thể (specifically:[spəˈsɪf.ɪ.kəl.i]): 
+    Hàm find_if và erase dùng để tìm kiếm và xóa một nhân viên dựa trên điều khiện được xác định
+    Hàm max_element dùng để tìm nhân viên có id lớn nhất trong danh sách
+
+Note: vector<Employee> employees;
+    dòng code này khai báo một vector có tên là employees, có kiểu dữ liệu là Employee
+    trong trường hợp này, vector employees được sử dụng để lưu trữ thông tin của nhân viên, 
+    mỗi phần tử trong vector là một đối tượng của lớp Employee.
+
+Note:   string filename;
+    Dòng code này dùng để khai báo một biến có tên filename, có kiểu dữ liệu là string,
+    biến này dùng để lưu trữ tên của tệp mà chương trình sẽ đọc và ghi thông tin của các nhân viên
+    vào đó.
